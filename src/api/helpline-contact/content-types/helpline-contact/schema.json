@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "helpline_contacts",
+  "info": {
+    "singularName": "helpline-contact",
+    "pluralName": "helpline-contacts",
+    "displayName": "Helpline Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "minLength": 3,
+      "maxLength": 15
+    }
+  }
+}
