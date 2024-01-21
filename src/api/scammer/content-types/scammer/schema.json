@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scammers",
+  "info": {
+    "singularName": "scammer",
+    "pluralName": "scammers",
+    "displayName": "Scammer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "website": {
+      "type": "string"
+    }
+  }
+}
